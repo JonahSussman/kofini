@@ -23,5 +23,5 @@ func GetDiscoverCmd() *cobra.Command {
 }
 
 func discoverHandler(cmd *cobra.Command, args []string, flags discoverFlags) {
-	cmd.Help()
+	// NOTE: Why does Move2Kube use a list of "collectors"?
 }
